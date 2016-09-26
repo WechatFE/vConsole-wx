@@ -1,0 +1,30 @@
+{
+  "name": "vconsole-wx",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/WechatFE/vConsole-wx",
+  "main": "dist/vconsole.min.js",
+  "scripts": {
+    "dist": "gulp"
+  },
+  "keywords": [
+    "console",
+    "debug",
+    "mobile",
+    "wechat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WechatFE/vConsole-wx.git"
+  },
+  "dependencies": {
+    "vconsole": "git+https://github.com/WechatFE/vConsole.git#dev"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "author": "WechatFE Team",
+  "license": "MIT"
+}

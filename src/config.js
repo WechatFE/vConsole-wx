@@ -1,0 +1,1 @@
+vConsole.removePlugin('network');
