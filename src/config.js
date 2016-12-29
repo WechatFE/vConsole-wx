@@ -1,7 +1,7 @@
 (function() {
   vConsole.removePlugin('network');
 
-  var wx = {version: {version: 0, updateTime: 'xxxx.xx.xx'}}
+  // var wx = {version: {version: 0, updateTime: 'xxxx.xx.xx'}}
   if (!!wx && !!wx.version) {
     console.info('[system]', 'WeChatLib:', wx.version.version + ' (' + wx.version.updateTime + ')');
   }
